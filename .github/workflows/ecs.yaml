@@ -100,5 +100,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: aws-node-be6-service
-        cluster: aws-node-be6
+        cluster: nodejs-be
         wait-for-service-stability: true
