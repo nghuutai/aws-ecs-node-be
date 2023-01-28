@@ -17,6 +17,7 @@ app.get('/users', (req, res) => {
         data: [
             { id: 1, fullname: 'Nguyen Huu Tai' },
             { id: 2, fullname: 'Nguyen Huu Tay' },
+            { id: 3, fullname: 'Nguyen A' }
         ]
     });
 });
