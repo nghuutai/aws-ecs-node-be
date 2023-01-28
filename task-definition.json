@@ -17,7 +17,7 @@
       "entryPoint": [],
       "portMappings": [
         {
-          "hostPort": 0,
+          "hostPort": 80,
           "protocol": "tcp",
           "containerPort": 8080
         }
@@ -37,7 +37,7 @@
       "memoryReservation": 500,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "620134677283.dkr.ecr.ap-northeast-1.amazonaws.com/huutay-repo",
+      "image": "620134677283.dkr.ecr.ap-northeast-1.amazonaws.com/huutay-repo:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -64,7 +64,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:620134677283:task-definition/ecs-node-be:1",
+  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:620134677283:task-definition/ecs-node-be:5",
   "family": "ecs-node-be",
   "requiresAttributes": [
     {
@@ -117,7 +117,7 @@
   "networkMode": "bridge",
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
